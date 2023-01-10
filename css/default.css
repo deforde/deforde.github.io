@@ -1,14 +1,14 @@
 html {
-  font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .container {
     display: grid;
     grid-template-rows: 100px auto 100px;
     grid-template-columns: 200px auto 200px;
     grid-template-areas:
-        "hdr hdr hdr"
-        ". content ."
-        "ftr ftr ftr";
+    "hdr hdr hdr"
+    ". content ."
+    "ftr ftr ftr";
 }
 .hdr {
     grid-area: hdr;
