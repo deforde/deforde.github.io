@@ -1,7 +1,5 @@
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .container {
     display: grid;
