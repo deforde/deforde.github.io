@@ -1,0 +1,27 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-rows: 200px auto 100px;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas:
+        "hdr hdr hdr"
+        ". content ."
+        "ftr ftr ftr";
+}
+.hdr {
+    grid-area: hdr;
+}
+.content {
+    grid-area: content;
+}
+.ftr {
+    grid-area: ftr;
+}
+.ftr_content {
+    position: relative;
+    top: 50px;
+}
