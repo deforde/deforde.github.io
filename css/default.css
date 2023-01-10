@@ -5,8 +5,8 @@ html {
 }
 .container {
     display: grid;
-    grid-template-rows: 200px auto 100px;
-    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 200px auto 200px;
     grid-template-areas:
         "hdr hdr hdr"
         ". content ."
@@ -22,6 +22,7 @@ html {
     grid-area: ftr;
 }
 .ftr_content {
+    text-align: right;
     position: relative;
     top: 50px;
 }
